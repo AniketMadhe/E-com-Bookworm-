@@ -1,3 +1,3 @@
-const BASE_URL = "https://bookworm-f8wq.onrender.com";
+const BASE_URL = "https://e-com-bookworm.onrender.com";
 
 export default BASE_URL;
