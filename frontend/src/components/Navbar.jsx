@@ -24,7 +24,7 @@ function Navbar() {
   };
 
   return (
-    <div className="md:w-full md:h-20 w-screen h-[10vh] relative flex justify-between items-center  bg-gradient-to-b from-blue-950  to-blue-100 bg-green-400 md:flex md:items-center md:justify-between ">
+    <div className="md:w-full md:h-20 w-screen h-[10vh] md:fixed flex justify-between items-center  bg-gradient-to-b from-blue-950  to-blue-100 bg-green-400 md:flex md:items-center md:justify-between ">
       <div className="md:w-20 md:h-20 w-[22vw]  ml-2 h-full rounded-full overflow-hidden  md:ml-6 md:rounded-full md:overflow-hidden">
         <img
           className="md:w-full  w-full h-full  md:h-full"
