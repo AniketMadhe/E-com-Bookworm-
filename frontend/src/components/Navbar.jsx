@@ -151,7 +151,9 @@ function Navbar() {
               {" "}
               <Link to="/orderHistory"> Order history</Link>
             </li>
-            <button onClick={handleLogout}>Logout</button>
+            <button className="hover:text-red-600" onClick={handleLogout}>
+              Logout
+            </button>
           </>
         )}
         {isLogin && isAdmin && (
@@ -169,7 +171,7 @@ function Navbar() {
               <Link to="/adminAddBook"> Add book</Link>
             </li>
 
-            <button className="hover:text-slate-800" onClick={handleLogout}>
+            <button className="hover:text-red-800" onClick={handleLogout}>
               Logout
             </button>
           </>
